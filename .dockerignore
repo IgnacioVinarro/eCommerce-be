@@ -1,0 +1,53 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Build de Maven (se compila dentro de la imagen)
+target/
+
+# Secretos y variables de entorno
+.env
+.env.*
+application-local.*
+application-secret*.*
+
+# Docker (no hace falta dentro de la imagen)
+Dockerfile*
+docker-compose*.yml
+.dockerignore
+pgdata/
+postgres-data/
+.docker/
+
+# Logs
+*.log
+logs/
+
+# Tests y cobertura
+coverage/
+*.exec
+
+# IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated/
+.springBeans
+.sts4-cache/
+nbproject/
+
+# Documentación
+docs/
+*.md
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini

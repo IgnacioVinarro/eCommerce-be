@@ -1,0 +1,70 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+.flattened-pom.xml
+dependency-reduced-pom.xml
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+# Spring Boot
+application-local.properties
+application-local.yml
+application-secret*.properties
+application-secret*.yml
+
+# Variables de entorno y secretos (DB, JWT, claves de pagos)
+.env
+.env.*
+!.env.example
+
+# Docker
+docker-compose.override.yml
+.docker/
+pgdata/
+postgres-data/
+
+# Logs
+*.log
+logs/
+
+# Tests y cobertura
+coverage/
+*.exec
+
+# IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated/
+.springBeans
+.sts4-cache/
+nbproject/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# Documentación
+docs/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
